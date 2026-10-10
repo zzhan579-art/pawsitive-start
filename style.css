@@ -261,3 +261,48 @@ footer a {
         grid-template-columns: 1fr;
     }
 }
+.training-video {
+    margin: 2rem 0;
+}
+
+.training-video video {
+    display: block;
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 12px;
+}
+.feedback-form {
+    display: grid;
+    gap: 0.75rem;
+    max-width: 600px;
+    margin-top: 1.5rem;
+}
+
+.feedback-form label {
+    font-weight: bold;
+}
+
+.feedback-form input,
+.feedback-form select,
+.feedback-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.75rem;
+    border: 1px solid #9eada1;
+    border-radius: 6px;
+    font: inherit;
+    background-color: white;
+}
+
+.feedback-form button {
+    padding: 0.85rem 1.25rem;
+    border: 0;
+    border-radius: 6px;
+    background-color: #285d44;
+    color: white;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
